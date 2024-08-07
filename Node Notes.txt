@@ -1,0 +1,14 @@
+----------Node JS Modules 
+
+**math.js
+
+function add(a,b){
+    return a + b;
+}
+module.exports = {add, multi};
+
+**Main.js
+
+const math = require("./Math");
+let a = math.add(5,10);
+clg(a)
