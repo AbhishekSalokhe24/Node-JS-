@@ -2,12 +2,12 @@ const fs = require("fs");
 
 // ------------Blocking code 
 
-console.log("first");
+// console.log("first");
 
-let data = fs.readFileSync("./test.txt","utf-8");
-console.log(data);
+// let data = fs.readFileSync("./test.txt","utf-8");
+// console.log(data);
 
-console.log("second");
+// console.log("second");
 
 console.log("\n")
 // ---------------Non-Blocking code 
